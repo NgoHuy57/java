@@ -76,3 +76,28 @@ td {
     display: table-cell;
     vertical-align: inherit;
 }
+.product_image img{
+	width: 150px;
+}
+/* ---------------------------------------------------------------------*/
+.cart{
+	width: 70%;
+	margin: auto;
+
+	padding-top:100px;
+}
+.cart h3 {
+	margin-bottom: 80px;
+}
+.bot{
+	width: 90%;
+	margin: auto;
+}
+.giohangbt button{
+	
+	height: 60px;}
+
+.order-infor{
+	float: right;
+	width: 70%;
+}
