@@ -1,114 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Basic Polo-Lyos</title>
-	<link rel="stylesheet" type="text/css" href="basicpolo1.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <script src="jquery.min.js"></script>
-  <script src="giohang.html"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Polo-Lyos</title>
+    <link rel="stylesheet" type="text/css" href="basicpolo1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="jquery.min.js"></script>
+    <script src="giohang.html"></script>
 
 </head>
+
 <body>
-	<div class="yasuo" style="background-color: black;">
-      <i class="fa-solid fa-fire-flame-curved"></i>
-      <div class="col-md-6 " style="text-align: center; color: #FFFFFF; font-weight: bold; padding-top: 5px;padding-bottom: 5px; ">
-     MIỄN PHÍ VẬN CHUYỂN ĐỐI VỚI ĐƠN HÀNG TRÊN 1.500.000
-      </div>
-    </div>
-    <div class="col-8 logo" ><a href="all.html"><img src="./img/logo.jpg" alt=""></a></div>
-   <div class="container-fluid" style="padding-top: 40px; padding-bottom: 40px;">
-   	
-<div class="container-fluid header">
-    <div class="container-fluid fixed-top bg-light">
-        <nav class="navbar navbar-expand-lg">
-            <a href="#" class="navbar-brand">
-            </a>
-            <div id="my-nav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-auto header-menu">
-                        <li class="nav-item active">
-                            <a class="nav-link text-white" href="bai4.1.html">TRANG CHỦ <span class="sr-only">(current)</span></a>
-                        </li>                
-                    </ul>
-                        <a class="ml-3 mr-3" href="giohang.html ">
-                        <i class="fas fa-shopping-cart"></i>
-                        </a>
-                </div>
-             </div>
-        </nav>
-    </div>
-</div>
-  <div id="cart" class="container" style="height:auto; margin-bottom:3%;">
-    <h5>Giỏ hàng</h5>
-     <div class="row">
-      <div class="col-8">
-        <table class="table">
-            <thead>
-            <tr class="text-center">
-                <th>IMG</th>
-                <th>Tên</th>
-                <th>Đơn giá</th>
-                <th>Số lượng</th>
-                <th>Tổng</th>
-                <th>Xóa</th>
-            </tr>
-            </thead>
-            <tbody class="table show-cart-1">
-            </tbody>
-        </table>
-    </div>
-    <div class="col-4">
-        <div class="thanhtoan">
-            <div class="price">
-                <div class="row">
-<div class="col-6">
-                        <div class="price-text">Tạm tính :</div>
-                    </div>
-                    <div class="col-6 text-right">
-                        <div class="mr-0">
-                            <span class="total-cart total-1"></span>
-                            <div class="d-inline text-primary">đ</div>
-                        </div>
-                    </div>
-                    <div class="col-6 mt-4">
-                       <div>Tổng tiền :</div>
-                    </div>
-                    <div class="col-6 mt-4 text-right">
-                        <div class="mr-0">
-                            <span class="total-cart total"></span>
-                            <div class="d-line total">đ</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="mt-3 button text-center">
-                <a type="button" class="btn btn-danger fs-5" href="./dangnhap.html" >
-                    Tiến hành đặt hàng
-                </a>
-             </div>
-          </div>
+    <div class="row" style="background-color: black;">
+        <div class="col-md-6 "
+            style="text-align: center; color: #FFFFFF; font-weight: bold; padding-top: 5px;padding-bottom: 5px; ">
+            MIỄN PHÍ VẬN CHUYỂN ĐỐI VỚI ĐƠN HÀNG TRÊN 1.500.000
         </div>
     </div>
-</div>
+    <div class="col-8 logo"><a href="all.html"><img src="./img/logo.jpg" alt=""></a></div>
+    <form action="">
+        <section class="cart">
+            <h3 style="text-align: center;font-weight: bold;">Giỏ Hàng Của Bạn</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="display: flex;align-items:center;">
+                            <img style="width: 200px;" src="./img/1.jpg" alt="">
+                        </td>
+
+                        <td>
+                            <p><span>Basic Polo(Black)</span></p>
 
 
+                            <p><span> 320.000 </span><sup>đ</sup></p>
+
+                            <p><span>Xs</span></p>
+                            <input style="width: 50px;" type="number" value="1">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="bot">
+                <tbody>
+                    <thead>
+                        <tr>
+                            <td><textarea style="background-color: #ededed;height: 130px; outline: none;border: 1px solid transparent; padding: 20px;" id="note" name="note" rows="8" cols="60"placeholder="Ghi chú"></textarea></td>
+                          <td><p class="order-infor">					
+                          
+                            <span class="total_price" style="float: right;"> Tổng tiền:<b>320.000<sup>₫</sup></b></span>
+                            <div class="giohangbt">
+                                <a href=""><button class="btn btn-outline-dark " style="float: right;width: 150px;" type="submit">CẬP NHẬT</button></a>
+                                <a href=""><button  class="btn btn-outline-dark " style="float: left;width: 160px;margin-left: 30px;" type="submit">TIẾP TỤC MUA HÀNG</button></a>
+                                <a href=""><button  class="btn btn-outline-dark "style="float: right;width: 150PX"  type="submit">THANH TOÁN</button></a>
+                            </div>
+                            </p>
+                        </td>
+                        </tr>
+                        
+                    </thead>
+                </tbody>
+            </table>
+        </section>
+    </form>
+    <footer>
+        <span style="text-align: center;">© 2022 LYOS</span>
+    </footer>
 
 
-
-
-<footer class="bg-light text-center text-lg-start" >
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-  	<i class="bi bi-facebook"></i>
-  <i class="bi bi-instagram"></i>
-    © 2022 Lyos:
-    <a class="text-dark" href="https://www.lyos.vn/">https://www.lyos.vn/</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
